@@ -1,0 +1,227 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav li a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.content {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* For form elements */
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input, select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 60px;
+}
+
+/* Card-like container */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.card ul {
+  margin-top: 10px;
+}
+
+.card ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* DashboardPage Styles */
+.dashboard-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.dashboard-summary div {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.dashboard-summary h3 {
+  margin-bottom: 10px;
+}
+
+.dashboard-summary p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dashboard-summary div p {
+  font-size: 18px;
+  color: #4CAF50;
+}
+
+/* BillingPage Styles */
+.billing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.billing-container label {
+  margin-bottom: 5px;
+}
+
+.billing-form {
+  margin-bottom: 20px;
+}
+
+.billing-cart {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.billing-cart ul {
+  margin-bottom: 20px;
+}
+
+.billing-cart li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.billing-cart .qty {
+  width: 40px;
+}
+
+.billing-cart button {
+  background-color: #f44336;
+}
+
+.billing-cart button:hover {
+  background-color: #e53935;
+}
+
+.billing-cart-total {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* InvoicesPage Styles */
+.invoices-list {
+  margin-top: 20px;
+}
+
+.invoices-list ul {
+  padding: 0;
+}
+
+.invoices-list li {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.invoices-list h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.invoices-list p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.invoices-list ul li ul {
+  padding-left: 20px;
+}
+
+.invoices-list ul li ul li {
+  font-size: 14px;
+  color: #666;
+}
